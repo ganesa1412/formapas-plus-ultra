@@ -1,0 +1,134 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+.desktop-hide {
+	display: none !important;
+}
+
+@media (min-width: 320px) and (max-width: 960px) {
+
+	body,
+	html {
+		overflow-x: hidden;
+	}
+	.section{
+		width: 90vw;
+	}
+
+	.mobile-hide {
+		display: none !important;
+	}
+
+	.desktop-hide {
+		display: block !important;
+	}
+
+	#navbar{
+		padding: 20px 10px;
+		width: 105vw;
+		left: 0px;
+		right: 0px;
+	}
+	#navbar .btn-outline{
+		border: 2px solid !important;
+		width: 40px;
+		padding: 5px 0px;
+		margin-top: 5px;
+	}
+	#navbar .btn-outline:focus,#navbar .btn-outline:hover,#navbar .btn-outline:active{
+		background-color: transparent !important; 
+		border-color: #fff !important;
+	}
+	#navbar ul.nav-menu{
+		/*margin-top: 30px;*/
+		height: 0px;
+		overflow: hidden;
+		transition-duration: 0.5s;
+		text-align: center;
+	}
+	#navbar ul.nav-menu.show{
+		height: 82vh;
+		margin-top: 30px;
+	}
+	#navbar ul.nav-menu li{
+		font-size: 20px;
+		display: block;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.nav-footer, .copyright{
+		text-align: center;
+	}
+	.nav-footer li{
+		margin: 4px;
+	}
+	#footer{
+		font-size: 12px;
+	}
+	#footer .order-1{
+		padding-right: 0px;
+	}
+	.footer-logo{
+		width: 100%;
+		padding-right: 5px;
+		padding-top: 2px;
+	}
+	.footer-contact li{
+		margin-bottom: 5px;
+	}
+	.home-boy, .home-girl{
+		display: none;
+	}
+	.landing-title{
+		font-size: 48px;
+		line-height: 48px;
+		margin-left: 5vw;
+	}
+	#landing-head{
+		padding-top: 600px;
+	}
+	#scene{
+		display: none;
+	}
+	.countdown-date{
+		left: -5px;
+		width: 50%;
+	}
+	.countdown-panel{
+		padding: 20px;
+		padding-top: 180px;
+	}
+	.countdown-title{
+		font-size: 32px;
+		margin-top: 40px;
+	}
+	.countdown-panel span{
+		font-size: 14px !important;
+	}
+	#selayang{
+		height: auto;
+		margin-top: 0px;
+		background-image: none;
+		background-color: #0036ec;
+	}
+	.selayang-container{
+		margin: auto;
+		width: 100vw !important;
+		margin-top: 0px;
+		background-image: none;
+		left: 0px;
+		top: 0px;
+	}
+	.selayang-container h2{
+		margin-bottom: 20px;
+		margin-left: 0px;
+		font-size: 28px;
+	}
+	.bunder{
+		display: none;
+	}
+	.selayang-img{
+		width: 100%;
+	}
+}
